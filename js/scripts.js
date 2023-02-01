@@ -68,5 +68,6 @@ $(document).ready(function() {
     // Parallax
     setTimeout(function() {
         $('#data-area').parallax({imageSrc: 'imagem/cidadeparallax.png'});
+        $('#apply-area').parallax({imageSrc: 'imagem/pattern.png'});
     },250);
 });
